@@ -17,7 +17,7 @@ Summary of the data:
 - We have a telecommunication data of 50079 unique individuals with 99 features about customers and 1 binary churn variable.
 
 - You can see definitions of the all the features at 'churn_metadata.csv'. Broadly, the dataset includes data about usage (mean number of calls, SMS, internet usage etc.),
-revenue from different services etc., customer characteristics (tenure, family members, current handset, location, income etc.)
+revenue from different services, customer characteristics (tenure, family members, current handset, location, income etc.)
 
 - In data cleaning:
   - Features with a less than 0.005 point correlation to churn variable is dropped.
@@ -33,10 +33,10 @@ revenue from different services etc., customer characteristics (tenure, family m
 - The dataset is balanced in churn variable meaning the number of customers churn is approximately 50% of the data even after dropping the data points with missing values.
 This is not a usual scenario for churn data because one would expect to see smaller percent of churn (around 20%).
 
-- When we look at the number of people churning vs not churning with respect to number of years they are using the service (tenure), We see that users with tenure of less than one year churn less
+- When we look at the number of people churning vs not churning with respect to number of years they are using the service (tenure), we see that users with tenure of less than one year churn less
 whereas users with a tenure between 1-2 years seem to churn more. This could be because of the binding subscriptions typically lasts 12 months or 24 months.
 
-- Churning with respect to number of subscribers in the household gives us that there are more churning customers if number of subscribers is 2 which does not make a clear sense at first.
+- Churning with respect to number of subscribers in the household gives us that there are more churning customers if number of subscribers is 2.
 
 - Churning with respect to age of the equipment shows that people with equipment of 2 years have a higher churning ratio which can also be related to construction of subscriptions.
 
